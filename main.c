@@ -243,7 +243,7 @@ void sortEventList()
 {
 	if (calendarList.index == 0)
 	{
-		printf("event list is empty for being sorted");
+		printf("\nEvent list is empty for being sorted\n");
 		return;
 	}
 	arrangeCalendarList();
@@ -345,7 +345,7 @@ int main()
 		bool isBreak = false;
 		int temp =  -1;
 		printf("=====================Calendar event=======================\n");
-		printf("Please chooses your action of the program:\n");
+		printf("Please choose your action of the program:\n");
 		printf("1,Add event\n");
 		printf("2,Remove event\n");
 		printf("3,Save to database file\n");
